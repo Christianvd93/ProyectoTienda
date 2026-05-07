@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Registro Floral</title>
+
+<link
+rel="stylesheet"
+href="css/estilos.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <h1>🌷 Registro Usuario</h1>
+
+    <!-- USUARIO -->
+    <input
+    type="text"
+    id="usuarioRegistro"
+    placeholder="Ingrese usuario">
+
+    <!-- PASSWORD -->
+    <input
+    type="password"
+    id="passwordRegistro"
+    placeholder="Ingrese contraseña">
+
+    <!-- BOTON -->
+    <button
+    class="btn-login"
+    onclick="registrar()">
+
+        Registrar Usuario
+
+    </button>
+
+    <!-- VOLVER -->
+    <button
+    class="btn-registro"
+    onclick="window.location.href='index.html'">
+
+        Volver al Login
+
+    </button>
+
+    <!-- MENSAJE -->
+    <div
+    id="mensajeRegistro"
+    class="mensaje"></div>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

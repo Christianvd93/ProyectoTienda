@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorios Florales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top-bar">
+    <div class="left-buttons">
+        <button>Iniciar sesión</button>
+        <button>Crear cuenta</button>
+        <a href="#contacto">Contactos</a>
+    </div>
+
+    <div class="right-social">
+        <img src="img proyecto/logo1.png" alt="Facebook">
+        <img src="img proyecto/logo2.png" alt="Instagram">
+    </div>
+</header>
+
+<section class="hero">
+    <img src="img proyecto/logotienda.png" class="logo">
+    <h1>Accesorios Florales</h1>
+        
+</section>
+
+<nav class="menu">
+    <input type="text" placeholder="Buscar productos...">
+    <a href="#top">Inicio</a>
+    <a href="#contacto">Sobre nosotros</a>
+    <a href="#productos">Productos</a>
+    <div class="carrito">
+        🛒 <span id="contador">0</span>
+    </div>
+</nav>
+
+<section class="banner">
+    <img src="img proyecto/imgr1.png">
+</section>
+
+<section class="descripcion">
+    <div class="cuadro">
+    <h2>Accesorios Florales</h2>
+    <p>Una tienda especializada en accesorios florales ofrece soluciones creativas y personalizadas para embellecer espacios, celebrar momentos especiales y transmitir emociones a través de arreglos naturales y decorativos. Nuestros servicios están diseñados para combinar estética, frescura y calidad, adaptándose a las necesidades de cada cliente.</p>
+</div>
+</section>
+
+<section id="productos" class="listas">
+
+    <div>
+        <h3>Accesorios Florales</h3>
+        <ol>
+            <li><a href="#prod1">Jarrón decorativo</a></li>
+            <li><a href="#prod2">Cinta floral</a></li>
+            <li><a href="#prod3">Maceta moderna</a></li>
+            <li><a href="#prod4">Base de vidrio</a></li>
+            <li><a href="#prod5">Soporte floral</a></li>
+        </ol>
+    </div>
+    
+    <div class="imagen-central">
+        <img src="img proyecto/imgr2.png" alt="Flores">
+    </div>
+
+    <div>
+        <h3>Arreglos Florales</h3>
+        <ol>
+            <li><a href="#prod6">Rosas elegantes</a></li>
+            <li><a href="#prod7">Tulipanes</a></li>
+            <li><a href="#prod8">Girasoles</a></li>
+            <li><a href="#prod9">Orquídeas</a></li>
+            <li><a href="#prod10">Mixto floral</a></li>
+        </ol>
+    </div>
+
+</section>
+
+<section class="tienda">
+
+    <div class="card" id="prod1">
+     <img src="img proyecto/pto1.png"><h4>Jarrón decorativo</h4><p>$20</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod2"><img src="img proyecto/pto2.png"><h4>Cinta floral</h4><p>$10</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod3"><img src="img proyecto/pto3.png"><h4>Maceta moderna</h4><p>$25</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod4"><img src="img proyecto/pto4.png"><h4>Base de vidrio</h4><p>$18</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod5"><img src="img proyecto/pto5.png"><h4>Soporte floral</h4><p>$30</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod6"><img src="img proyecto/pto6.png"><h4>Rosas elegantes</h4><p>$40</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod7"><img src="img proyecto/pto7.png"><h4>Tulipanes</h4><p>$35</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod8"><img src="img proyecto/pto8.png"><h4>Girasoles</h4><p>$28</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod9"><img src="img proyecto/pto9.png"><h4>Orquídeas</h4><p>$50</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+        <div class="card" id="prod10"><img src="img proyecto/pto10.png"><h4>Mixto floral</h4><p>$45</p><button onclick="agregar()">Agregar</button><button onclick="quitar()">Quitar</button></div>
+
+</section>
+
+<footer id="contacto">
+    <h3>Contacto</h3>
+    <p>Tel: 123456789</p>
+    <p>Email: tienda@floral.com</p>
+    <p>WhatsApp: 3000000000</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
