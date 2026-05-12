@@ -38,6 +38,9 @@ if(!$data){
 // OBTENER DATOS
 $usuario = trim($data["usuario"]);
 $password = trim($data["password"]);
+$nombre = $input["nombre"] ?? "";
+$apellidos = $input["apellidos"] ?? "";
+$telefono = $input["telefono"] ?? "";
 
 // VALIDAR CAMPOS
 if(empty($usuario) || empty($password)){
