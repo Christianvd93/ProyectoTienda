@@ -53,9 +53,9 @@ async function login(){
         // FETCH API LOGIN
         const respuesta =
         await fetch(
-
-            "http://localhost/api_login/login.php",
-
+            
+            
+            "http://localhost/Proyectotienda/api_login/login.php",
             {
                 method:"POST",
 
@@ -90,7 +90,7 @@ async function login(){
             setTimeout(() => {
 
                 window.location.href =
-                "http://localhost/Paginaweb";
+                "http://localhost/Proyectotienda/Paginaweb";
 
             }, 2000);
 
@@ -186,7 +186,7 @@ async function registrar(){
         const respuesta =
         await fetch(
 
-            "http://localhost/api_login/registro.php",
+            "http://localhost/Proyectotienda/api_login/registro.php",
 
             {
                 method:"POST",
